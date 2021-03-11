@@ -1,9 +1,391 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+"users":[
+{
+    "id": 1,
+    "email": "user1@mail.ru",
+    "password": "password123"
+},
+{
+    "id": 2,
+    "email": "user2@mail.ru",
+    "password": "password123"
+},
+{
+    "id": 3,
+    "email": "user3@mail.ru",
+    "password": "password123"
+},
+{
+    "id": 4,
+    "email": "user4@mail.ru",
+    "password": "password123"
+},
+{
+    "id": 5,
+    "email": "user5@mail.ru",
+    "password": "password123"
+}
+],
+"products": {
+"costumes":[
+{
+    "id": 1,
+    "manafacturer": "Mango Man",
+    "size": 48,
+    "gender": "man",
+    "price": 7000
+},
+{
+    "id": 2,
+    "manafacturer": "Primo Emporio",
+    "size": 42,
+    "gender": "female",
+    "price": 11565
+},
+{
+    "id": 3,
+    "manafacturer": "Mango Man",
+    "size": 43,
+    "gender": "female",
+    "price": 12422
+},
+{
+    "id": 4,
+    "manafacturer": "Selected Homme",
+    "size": 41,
+    "gender": "male",
+    "price": 11186
+},
+{
+    "id": 5,
+    "manafacturer": "Primo Emporio",
+    "size": 43,
+    "gender": "female",
+    "price": 7756
+},
+{
+    "id": 6,
+    "manafacturer": "Primo Emporio",
+    "size": 48,
+    "gender": "female",
+    "price": 12903
+},
+{
+    "id": 7,
+    "manafacturer": "Primo Emporio",
+    "size": 45,
+    "gender": "male",
+    "price": 10532
+},
+{
+    "id": 8,
+    "manafacturer": "Mango Man",
+    "size": 46,
+    "gender": "male",
+    "price": 14003
+},
+{
+    "id": 9,
+    "manafacturer": "Mango Man",
+    "size": 45,
+    "gender": "male",
+    "price": 8069
+},
+{
+    "id": 10,
+    "manafacturer": "Primo Emporio",
+    "size": 47,
+    "gender": "male",
+    "price": 14152
+}
+],
+"jacket":[
+{
+    "id": 1,
+    "manafacturer": "Joma",
+    "size": 40,
+    "gender": "male",
+    "price": 8857
+},
+{
+    "id": 2,
+    "manafacturer": "Paragoose",
+    "size": 41,
+    "gender": "male",
+    "price": 12842
+},
+{
+    "id": 3,
+    "manafacturer": "Paragoose",
+    "size": 48,
+    "gender": "male",
+    "price": 9459
+},
+{
+    "id": 4,
+    "manafacturer": "oodjl",
+    "size": 42,
+    "gender": "female",
+    "price": 13006
+},
+{
+    "id": 5,
+    "manafacturer": "Paragoose",
+    "size": 47,
+    "gender": "female",
+    "price": 9334
+},
+{
+    "id": 6,
+    "manafacturer": "Paragoose",
+    "size": 41,
+    "gender": "male",
+    "price": 10670
+},
+{
+    "id": 7,
+    "manafacturer": "oodjl",
+    "size": 46,
+    "gender": "female",
+    "price": 12850
+},
+{
+    "id": 8,
+    "manafacturer": "oodjl",
+    "size": 44,
+    "gender": "female",
+    "price": 9647
+},
+{
+    "id": 9,
+    "manafacturer": "Joma",
+    "size": 43,
+    "gender": "female",
+    "price": 9909
+},
+{
+    "id": 10,
+    "manafacturer": "Joma",
+    "size": 44,
+    "gender": "female",
+    "price": 12130
+}
+],
+"boots":[
+{
+    "id": 1,
+    "manafacturer": "nike",
+    "size": 36,
+    "gender": "female",
+    "price": 7413
+},
+{
+    "id": 2,
+    "manafacturer": "reebok",
+    "size": 36,
+    "gender": "female",
+    "price": 9654
+},
+{
+    "id": 3,
+    "manafacturer": "nike",
+    "size": 39,
+    "gender": "male",
+    "price": 7650
+},
+{
+    "id": 4,
+    "manafacturer": "nike",
+    "size": 35,
+    "gender": "female",
+    "price": 8883
+},
+{
+    "id": 5,
+    "manafacturer": "adidas",
+    "size": 40,
+    "gender": "male",
+    "price": 7917
+},
+{
+    "id": 6,
+    "manafacturer": "patrol",
+    "size": 38,
+    "gender": "female",
+    "price": 7882
+},
+{
+    "id": 7,
+    "manafacturer": "reebok",
+    "size": 37,
+    "gender": "male",
+    "price": 7153
+},
+{
+    "id": 8,
+    "manafacturer": "nike",
+    "size": 41,
+    "gender": "male",
+    "price": 9255
+},
+{
+    "id": 9,
+    "manafacturer": "reebok",
+    "size": 42,
+    "gender": "male",
+    "price": 9485
+},
+{
+    "id": 10,
+    "manafacturer": "patrol",
+    "size": 42,
+    "gender": "male",
+    "price": 7835
+}
+],
+"olympics":[
+{
+    "id": 1,
+    "manafacturer": "Tommy Jeans",
+    "size": 37,
+    "gender": "male",
+    "price": 74911
+},
+{
+    "id": 2,
+    "manafacturer": "Ice Play",
+    "size": 39,
+    "gender": "male",
+    "price": 55279
+},
+{
+    "id": 3,
+    "manafacturer": "Ice Play",
+    "size": 41,
+    "gender": "unisex",
+    "price": 51067
+},
+{
+    "id": 4,
+    "manafacturer": "Tommy Jeans",
+    "size": 40,
+    "gender": "male",
+    "price": 89477
+},
+{
+    "id": 5,
+    "manafacturer": "Tommy Jeans",
+    "size": 39,
+    "gender": "male",
+    "price": 88611
+},
+{
+    "id": 6,
+    "manafacturer": "Under Armour",
+    "size": 39,
+    "gender": "male",
+    "price": 89523
+},
+{
+    "id": 7,
+    "manafacturer": "Ice Play",
+    "size": 38,
+    "gender": "female",
+    "price": 70314
+},
+{
+    "id": 8,
+    "manafacturer": "Tommy Jeans",
+    "size": 35,
+    "gender": "male",
+    "price": 75890
+},
+{
+    "id": 9,
+    "manafacturer": "Ice Play",
+    "size": 36,
+    "gender": "female",
+    "price": 31690
+},
+{
+    "id": 10,
+    "manafacturer": "Tommy Jeans",
+    "size": 39,
+    "gender": "unisex",
+    "price": 70478
+}
+],
+"hoodies":[
+{
+    "id": 1,
+    "manafacturer": "Nike",
+    "size": 41,
+    "gender": "unisex",
+    "price": 92913
+},
+{
+    "id": 2,
+    "manafacturer": "Tommy Jeans",
+    "size": 35,
+    "gender": "female",
+    "price": 95900
+},
+{
+    "id": 3,
+    "manafacturer": "Tommy Jeans",
+    "size": 37,
+    "gender": "male",
+    "price": 53164
+},
+{
+    "id": 4,
+    "manafacturer": "Nike",
+    "size": 36,
+    "gender": "female",
+    "price": 37326
+},
+{
+    "id": 5,
+    "manafacturer": "Nike",
+    "size": 35,
+    "gender": "unisex",
+    "price": 38045
+},
+{
+    "id": 6,
+    "manafacturer": "Tommy Jeans",
+    "size": 39,
+    "gender": "female",
+    "price": 97532
+},
+{
+    "id": 7,
+    "manafacturer": "Tommy Jeans",
+    "size": 42,
+    "gender": "male",
+    "price": 38674
+},
+{
+    "id": 8,
+    "manafacturer": "Nike",
+    "size": 38,
+    "gender": "unisex",
+    "price": 62506
+},
+{
+    "id": 9,
+    "manafacturer": "Tommy Jeans",
+    "size": 39,
+    "gender": "unisex",
+    "price": 31231
+},
+{
+    "id": 10,
+    "manafacturer": "Nike",
+    "size": 39,
+    "gender": "male",
+    "price": 51820
+}
+]
+}
 }
